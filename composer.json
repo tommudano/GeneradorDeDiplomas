@@ -1,0 +1,22 @@
+{
+	"require-dev": {
+		"phan/phan": "^3.2.2",
+		"phpunit/phpunit": "9.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"chillerlan\\Settings\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"chillerlan\\SettingsTest\\": "tests/",
+			"chillerlan\\SettingsExamples\\": "examples/"
+		}
+	},
+	"require": {
+		"chillerlan/php-qrcode": "^4.2",
+		"spipu/html2pdf": "^5.2",
+		"tecnickcom/tcpdf": "^6.4"
+	}
+}
