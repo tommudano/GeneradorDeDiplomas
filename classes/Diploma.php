@@ -68,7 +68,7 @@ class Diploma extends Entidad{
                             <h5 class='card-title'>Alumno: {$this->alumno}</h5>
                             <p class='card-text'>Profesor: {$this->profesor}</p>
                             <p class='card-text'>Curso: {$this->curso}</p>
-                            <a href='./QRDiploma.php?id={$this->id}' class='btn btn-danger' >Ver Diploma</a>
+                            <a href='./preDiploma.php?id={$this->id}' class='btn btn-danger' >Ver Diploma</a>
                         </div>
                     </div>";
         return $tarjeta;

@@ -46,7 +46,7 @@ if (Input::exists()) {
                 ));
 
                 $idCreada = $diploma->getDiplomaId(Input::get('alumnoId'), Input::get('profesorId'), Input::get('cursoId'));
-                Session::flash('diplomaCreado', 'success', '¡El diploma ha sido creado correctamente! <a href="./QRDiploma.php?id=' . Hash::encrypt($idCreada) . '">Click aqu&iacute;</a> para ver.');
+                Session::flash('diplomaCreado', 'success', '¡El diploma ha sido creado correctamente! <a href="./preDiploma.php?id=' . Hash::encrypt($idCreada) . '">Click aqu&iacute;</a> para ver.');
             } catch(Exception $e) {
                 Session::flash('diplomaCreado', 'danger', $e->getMessage());
             }
