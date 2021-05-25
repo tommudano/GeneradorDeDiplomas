@@ -12,7 +12,8 @@ La diferencia entre usuarios son los permisos de eliminación, edición y creaci
 La imagen de fondo del diploma, por defecto, es un fondo blanco. Esto puede cambiarse reeplazando la imagen diploma.png (en la raíz del proyecto) por la deseada bajo el nombre _diploma.png_.
 Para modificar el posicionamiento de los datos, o el formato bajo el que se presentan, referirse al archivo _diploma.php_ (en la raíz del proyecto).
 ## Funcionamiento
-Los dimplomas son creados por los usuarios registrados (solo el administrador puede registrar usuarios).\n
+Los dimplomas son creados por los usuarios registrados (solo el administrador puede registrar usuarios).
+
 Para ello se crean previamente las intancias de alumnos, cursos, profesores y diplomaturas (categoría del curso) necesarias.
 Los diplomas quedan firmados con la firma digital del porfesor o, en caso de no cargarla, sin firmar.
 Se envía a los estudiantes el link público de acceso al diploma (_.../preDiploma.php?id=..._). Allí se tiene el link de descarga del diploma (en formato .PDF).
